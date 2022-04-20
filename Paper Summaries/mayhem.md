@@ -2,9 +2,9 @@ offline SE = "concolic" SE
 online SE = "static"/"classic" SE
 
 MAYHEM introduces hybrid SE
-  does an hybrid between concolic and concrete (concrete executes concrete blocks concretely so it has concrete state)
-  when memory is low a states' concrete state is discarded, symbolic is saved to disk
-  when checkpoints are fetched from disk concrete input is generated based on
+  - does an hybrid between concolic and concrete (concrete executes concrete blocks concretely so it has concrete state)
+  - when memory is low a states' concrete state is discarded, symbolic is saved to disk
+  - when checkpoints are fetched from disk concrete input is generated based on
     the path condition and it is concretely executed to the checkpoint,
     at that point hybrid execution can continue
 
