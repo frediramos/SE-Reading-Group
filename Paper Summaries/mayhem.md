@@ -42,7 +42,7 @@ Memory Objects (not allocating for not accessed indices saves a lot of memory)
     + Bucketization, y = A * x + B, reduces number of leaf nodes in the IST
 
 WASP:
-  formula normalization and Lemma Cache
-  symbolic writes -> concretize idx, careful for sequential accesses (cache the expression's results)
-    add concrete idx to pc so that different indexes are considered
-  symbolic reads -> IST, if range is too big then concretize with focus on unmapped and symbolic data regions
+  - formula normalization and Lemma Cache
+  - symbolic writes -> concretize idx, careful for sequential accesses (cache the expression's results)
+    + add concrete idx to pc so that different indexes are considered
+  - symbolic reads -> IST, if range is too big then concretize with focus on unmapped and symbolic data regions
