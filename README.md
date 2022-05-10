@@ -13,3 +13,4 @@ https://videoconf-colibri.zoom.us/j/83757839959?pwd=K2xkWEFlczVPajhwRTU0N1E3RzVG
 4. [Unleashing MAYHEM on Binary Code](https://users.ece.cmu.edu/~aavgerin/papers/mayhem-oakland-12.pdf)
 5. [Enhancing Symbolic Execution with Veritesting](https://dl.acm.org/doi/pdf/10.1145/2927924)
 6. [Type-Safe Modular Hash-Consing](https://sci-hub.st/10.1145/1159876.1159880)
+7. [How We Get There: A Context-Guided Search Strategy in Concolic Testing](https://www.cse.ust.hk/~hunkim/papers/seo-fse2014.pdf)
